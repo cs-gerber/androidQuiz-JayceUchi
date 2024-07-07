@@ -1,14 +1,12 @@
 package edu.uchicago.gerber.androidquiz
 
 import android.app.Application
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
 
-class ClassicsQuizApplication : Application(){
+class AndroidQuizApplication : Application(){
 
     //create a public static var called app
     companion object {
-        lateinit var app: ClassicsQuizApplication
+        lateinit var app: AndroidQuizApplication
             private set
     }
 

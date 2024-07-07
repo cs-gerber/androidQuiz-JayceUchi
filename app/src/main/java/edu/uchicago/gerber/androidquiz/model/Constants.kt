@@ -1,6 +1,6 @@
 package edu.uchicago.gerber.androidquiz.model
 
-import edu.uchicago.gerber.androidquiz.ClassicsQuizApplication
+import edu.uchicago.gerber.androidquiz.AndroidQuizApplication
 import edu.uchicago.gerber.androidquiz.R
 
 object Constants {
@@ -11,5 +11,5 @@ object Constants {
     const val LATIN_INDEX = 1
     const val GREEK_INDEX = 2
 
-    val ENG_LAT_GRK_ARRAY = ClassicsQuizApplication.app.resources.getStringArray(R.array.classic_words)
+    val ENG_LAT_GRK_ARRAY = AndroidQuizApplication.app.resources.getStringArray(R.array.classic_words)
 }

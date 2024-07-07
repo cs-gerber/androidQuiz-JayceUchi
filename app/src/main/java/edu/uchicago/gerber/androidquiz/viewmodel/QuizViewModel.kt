@@ -1,22 +1,14 @@
 package edu.uchicago.gerber.androidquiz.viewmodel
 
-import android.util.Log
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import edu.uchicago.gerber.androidquiz.ClassicsQuizApplication
-import edu.uchicago.gerber.androidquiz.R
 import edu.uchicago.gerber.androidquiz.model.Constants
 import edu.uchicago.gerber.androidquiz.model.Constants.ENGLISH_INDEX
 import edu.uchicago.gerber.androidquiz.model.Constants.LATIN_INDEX
 import edu.uchicago.gerber.androidquiz.model.Constants.PIPE
 import edu.uchicago.gerber.androidquiz.model.Constants.GREEK_INDEX
 import edu.uchicago.gerber.androidquiz.model.Question
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.async
-import kotlinx.coroutines.launch
 import kotlin.random.Random
 
 class QuizViewModel(val mode: String = "latin") : ViewModel(){
